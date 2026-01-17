@@ -1,6 +1,7 @@
 // Portfolio.jsx
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import profileImg from '../assets/profile.jpg';
 
 const Portfolio = () => {
   return (
@@ -36,11 +37,17 @@ const Portfolio = () => {
         </div>
 
         {/* Placeholder for profile image */}
-        <div className="md:w-1/2 mt-10 md:mt-0">
+        {/* <div className="md:w-1/2 mt-10 md:mt-0">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full mx-auto border-4 border-indigo-500 flex items-center justify-center text-gray-500">
             Profile Image
           </div>
-        </div>
+        </div> */}
+        <img
+  src={profileImg}
+  alt="Irin Dominic"
+  className="w-64 h-64 md:w-80 md:h-80 rounded-full mx-auto border-4 border-indigo-500 object-cover"
+/>
+
       </section>
 
       {/* About Section */}
@@ -92,12 +99,16 @@ const Portfolio = () => {
           You can reach me via email or connect on social media:
         </p>
         <p className="text-lg mb-4">Email:{" "} {/* Adding a space here */}
-      <a 
-      href="mailto:irindominic987@gmail.com" 
-      className="text-indigo-400 hover:underline"
-    >
-      irindominic987@gmail.com
-    </a></p>
+      <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=irindominic987@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-indigo-400 hover:underline"
+>
+  irindominic987@gmail.com
+</a>
+
+        </p>
         <div className="flex space-x-6">
           <a href="https://github.com/Irindominic" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">GitHub</a>
           <a href="https://www.linkedin.com/in/irindominic/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">LinkedIn</a>
