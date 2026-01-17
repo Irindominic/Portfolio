@@ -6,7 +6,7 @@
     The website is fully responsive and designed to highlight my skills, interests, and work as a Computer Science student.
 
 🔗 Live URL:
-      https://portfolio-two-self-35.vercel.app
+      https://portfolio-ruddy-phi-34.vercel.app/
 
 🛠️ Tech Stack
 
