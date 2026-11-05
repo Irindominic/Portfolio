@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10">
           <div>
             <div className="text-xs uppercase font-mono tracking-wider text-indigo-400 font-semibold mb-1.5">
-              Portfolio Core
+              Project Highlights
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
               Featured Projects

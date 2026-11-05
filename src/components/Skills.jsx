@@ -21,13 +21,13 @@ const Skills = () => {
         {/* Section Header */}
         <div className="mb-8 sm:mb-10">
           <div className="text-xs uppercase font-mono tracking-wider text-indigo-400 font-semibold mb-1.5">
-            Technical Stack
+            Tools & Technologies
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
             Technical Skills
           </h2>
           <p className="text-zinc-400 text-xs sm:text-sm mt-1.5 max-w-xl">
-            Practical competencies categorized by engineering domains, emphasizing backend engineering, databases, machine learning, and core computer science fundamentals.
+            {/* Practical competencies categorized by engineering domains, emphasizing backend engineering, databases, machine learning, and core computer science fundamentals. */}
           </p>
           <div className="w-12 h-1 bg-indigo-500 rounded-full mt-2.5" />
         </div>
@@ -42,7 +42,8 @@ const Skills = () => {
               <div
                 key={category.category}
                 className={`p-4 sm:p-5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 hover:border-zinc-700/80 transition-all shadow-md hover:shadow-black/20 group flex flex-col justify-between ${
-                  isCoreCS ? "sm:col-span-2 lg:col-span-3 bg-gradient-to-r from-zinc-900/70 via-zinc-900/50 to-zinc-950/70 border-indigo-900/30" : ""
+                  //isCoreCS ? "sm:col-span-2 lg:col-span-3 bg-gradient-to-r from-zinc-900/70 via-zinc-900/50 to-zinc-950/70 border-indigo-900/30" : ""
+                  isCoreCS ? "sm:col-span-2 lg:col-span-2 bg-gradient-to-r from-zinc-900/70 via-zinc-900/50 to-zinc-950/70 border-indigo-900/30" : ""
                 }`}
               >
                 <div>
@@ -75,8 +76,8 @@ const Skills = () => {
                 </div>
 
                 <div className="mt-4 pt-2.5 border-t border-zinc-800/60 flex items-center justify-between text-[10px] text-zinc-400 font-mono">
-                  <span>{category.skills.length} competencies</span>
-                  <span className="text-indigo-400/80">Verified</span>
+                  <span></span>
+                  <span className="text-indigo-400/80"></span>
                 </div>
               </div>
             );

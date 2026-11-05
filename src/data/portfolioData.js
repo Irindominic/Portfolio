@@ -78,6 +78,12 @@ export const skillsData = [
       "Operating Systems",
       "Computer Networks"
     ]
+  },
+  {
+    category: "Tools and Platforms",
+    icon: "tool",
+    description: "Version control, development environment",
+    skills: ["Git", "GitHub", "VS Code",]
   }
 ];
 
@@ -252,7 +258,7 @@ export const projectsData = [
     challengesAndLearnings:
       "Gained practical experience in integrating computer vision with web application development and implementing threshold-based monitoring logic.",
     githubUrl:
-      "https://github.com/Irindominic/Watch-TowerCrowd",
+      "https://github.com/Irindominic/FullMobileApp",
     liveDemoUrl: null,
     deploymentNotice:
       "Locally executed project. Source code available on GitHub.",
@@ -390,66 +396,7 @@ export const experienceData = [
 }
 ];
 
-export const researchData = {
-  finalYearProject: {
-    title: "Malayalam Fake Product Review Detection System",
-    subtitle: "LLM-Based Malayalam Fake Review Detection System",
-    type: "Final-Year Research Project",
-    status: "Ongoing – Final Year Project",
-    overview: "This project aims to develop a system for detecting fake product reviews written in Malayalam by distinguishing genuine reviews from deceptive reviews, including human-written opinion spam and synthetic LLM-generated deceptive content.",
-    problemStatement: "The proliferation of deceptive reviews distorts e-commerce feedback integrity. In Malayalam, morphological complexity, script-specific agglutination, and scarce annotated datasets make spam classification uniquely challenging.",
-    approach: [
-      "Malayalam text preprocessing and morphological normalization",
-      "Formulation of binary classification (Genuine = 0, Fake = 1)",
-      "TF-IDF feature extraction with n-gram linguistic representations",
-      "Classical ML baseline using Support Vector Machine (SVM)",
-      "Exploration of multilingual transformer representations such as MuRIL",
-      "Parameter-efficient fine-tuning (PEFT) on open Large Language Models",
-      "Model explainability using SHAP, LIME, Integrated Gradients, and attention attribution"
-    ],
-    baselineResults: {
-      accuracy: "69.96%",
-      macroF1: "69.81%",
-      genuineF1: "67.70%",
-      fakeF1: "71.92%",
-      fakeRecall: "73.33%"
-    },
-    myRole: "Data preprocessing, TF-IDF feature extraction, classical ML baseline development, evaluation metrics synthesis, and style-confound error analysis."
-  },
-  seminar: {
-    title: "AI-Enabled Intelligent Defense for Link Flooding Attacks in SDNs",
-    type: "Academic Technical Seminar",
-    reference: "He et al., IEEE Transactions on Computers, 2026",
-    distinction: "Academic research seminar presentation and conceptual analysis (distinguished from an implemented software project).",
-    summary: "An in-depth academic study of intelligent defense mechanisms protecting Software Defined Networks (SDNs) from Link Flooding Attacks (LFAs)—covert DDoS attacks that intentionally congest critical bottleneck links while eluding conventional traffic monitors.",
-    coreConcepts: [
-      {
-        term: "Link Flooding Attacks (LFAs)",
-        desc: "Stealthy attacks where coordinated botnets flood selected target links with legitimate-looking traffic, disconnecting subnets without exceeding endpoint thresholds."
-      },
-      {
-        term: "Software Defined Networking (SDN)",
-        desc: "Decoupled control plane and programmable data planes providing centralized visibility and dynamic forwarding adjustments."
-      },
-      {
-        term: "LFAID-INT Framework",
-        desc: "An intelligent defense architecture combining In-band Network Telemetry (INT) with machine learning for fine-grained link status tracking."
-      },
-      {
-        term: "GAN-based GLD",
-        desc: "Generative Adversarial Network-based Gray-box Link Detector for identifying anomalous, congested links under stealth conditions."
-      },
-      {
-        term: "DDQN-based DLM",
-        desc: "Double Deep Q-Network-based Dynamic Link Mitigation providing reinforcement learning-driven traffic rerouting to alleviate congested corridors."
-      },
-      {
-        term: "Tools & Architectures",
-        desc: "Mininet network emulation, P4 programmable data plane pipelines, and ONOS centralized SDN controller."
-      }
-    ]
-  }
-};
+
 
 
 export const achievementsData = {
@@ -470,22 +417,15 @@ export const achievementsData = {
     {
       name: "Artificial Intelligence Fundamentals",
       organization: "IBM SkillsBuild",
-      grade: "Certificate of Completion",
+      grade: "Course Completion",
       description: "Completed foundational training in Artificial Intelligence through IBM SkillsBuild.",
       verificationUrl: null
     },
     {
       name: "Data Science for Engineers",
       organization: "NPTEL / IIT Madras",
-      grade: "Completed",
+      grade: "Course Completion",
       description: "Covered fundamental concepts of data science, including mathematical foundations, data analysis, and machine learning.",
-      verificationUrl: null
-    },
-    {
-      name: "Agentic AI Program",
-      organization: "IBM SkillsBuild in collaboration with CSRBOX",
-      grade: "Program Certificate",
-      description: "Completed training in Agentic AI as part of the IBM SkillsBuild program.",
       verificationUrl: null
     },
     {
