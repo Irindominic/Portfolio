@@ -1,0 +1,79 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4120 >>
+stream
+0.6 0.6 0.6 RG 1 w 50 693 m 545 693 l S
+0.6 0.6 0.6 RG 1 w 50 625 m 545 625 l S
+0.6 0.6 0.6 RG 1 w 50 543 m 545 543 l S
+0.6 0.6 0.6 RG 1 w 50 307 m 545 307 l S
+0.6 0.6 0.6 RG 1 w 50 225 m 545 225 l S
+BT /F2 22 Tf 50 780 Td (IRIN DOMINIC) Tj ET
+BT /F1 12 Tf 50 760 Td (Computer Science Engineering Student | Aspiring Software Engineer) Tj ET
+BT /F1 10 Tf 50 742 Td (Email: irindominic987@gmail.com | Location: Kottayam, Kerala, India) Tj ET
+BT /F1 10 Tf 50 728 Td (GitHub: https://github.com/Irindominic | LinkedIn: https://www.linkedin.com/in/irindominic/) Tj ET
+BT /F2 13 Tf 50 700 Td (EDUCATION) Tj ET
+BT /F2 11 Tf 50 684 Td (Rajiv Gandhi Institute of Technology \(RIT\), Kottayam) Tj ET
+BT /F1 10 Tf 50 670 Td (B.Tech in Computer Science and Engineering | Duration: 2023 - 2027 | CGPA: 9.64 / 10) Tj ET
+BT /F1 9 Tf 50 656 Td (Coursework: DSA, OOP, DBMS, Operating Systems, Computer Networks, Compiler Design, Discrete Math) Tj ET
+BT /F2 13 Tf 50 632 Td (TECHNICAL SKILLS) Tj ET
+BT /F1 10 Tf 50 616 Td (Languages: Python, C, Java | Frontend: React, JavaScript, Tailwind CSS, HTML, CSS) Tj ET
+BT /F1 10 Tf 50 602 Td (Backend: Flask, FastAPI, Node.js, Express.js | Databases: PostgreSQL, MySQL, MongoDB, SQLAlchemy) Tj ET
+BT /F1 10 Tf 50 588 Td (AI / Machine Learning: Scikit-learn, Pandas, NumPy, YOLOv5, Natural Language Processing) Tj ET
+BT /F1 10 Tf 50 574 Td (Tools & Core CS: Git, GitHub, VS Code, Postman, DSA, OOP, DBMS, OS, Computer Networks) Tj ET
+BT /F2 13 Tf 50 550 Td (PROJECTS) Tj ET
+BT /F2 11 Tf 50 534 Td (Malayalam Fake Product Review Detection System \(Ongoing Final-Year Project\)) Tj ET
+BT /F1 9 Tf 50 521 Td (Tech: Python, NLP, TF-IDF, SVM, MuRIL, LLM PEFT, SHAP, LIME) Tj ET
+BT /F1 9 Tf 50 509 Td (- Developing NLP & ML classification to detect deceptive Malayalam product reviews.) Tj ET
+BT /F1 9 Tf 50 497 Td (- Built Phase 1 baseline \(TF-IDF + SVM\) achieving 69.96% Accuracy and 69.81% Macro F1.) Tj ET
+BT /F2 11 Tf 50 477 Td (WatchTower - Computer Vision-Based Monitoring Application) Tj ET
+BT /F1 9 Tf 50 464 Td (Tech: Python, FastAPI, React, PostgreSQL, YOLOv5) Tj ET
+BT /F1 9 Tf 50 452 Td (- Integrated YOLOv5 object detection & counting with threshold-based logic \(65% control, 85% restrict\).) Tj ET
+BT /F1 9 Tf 50 440 Td (- Implemented FastAPI backend, React dashboard, and PostgreSQL database storage.) Tj ET
+BT /F2 11 Tf 50 420 Td (FarmConnect - Agricultural Web Platform) Tj ET
+BT /F1 9 Tf 50 407 Td (Tech: Python, Flask, SQLAlchemy, Database Management) Tj ET
+BT /F1 9 Tf 50 395 Td (- Developed full-stack web platform connecting farmers and customers directly.) Tj ET
+BT /F1 9 Tf 50 383 Td (- Implemented authentication, relational database models, and backend business logic.) Tj ET
+BT /F2 11 Tf 50 363 Td (AI Study Buddy - Generative AI Learning Assistant) Tj ET
+BT /F1 9 Tf 50 350 Td (Tech: React, Tailwind CSS, Node.js, Express.js, MongoDB, OpenRouter API) Tj ET
+BT /F1 9 Tf 50 338 Td (- Built interactive study assistant integrating OpenRouter API for intelligent explanations.) Tj ET
+BT /F2 13 Tf 50 314 Td (EXPERIENCE & INTERNSHIPS) Tj ET
+BT /F2 10 Tf 50 298 Td (TechMaghi | Data Science / Machine Learning Intern \(June 15-21, 2025 | Hybrid\)) Tj ET
+BT /F1 9 Tf 50 285 Td (- Explored data science workflows, machine learning models, and practical analytical pipelines.) Tj ET
+BT /F2 10 Tf 50 269 Td (IBM SkillsBuild \(CSRBOX\) | Agentic AI Program - Team 404 Coders \(July 4 - Aug 7, 2025\)) Tj ET
+BT /F1 9 Tf 50 256 Td (- Explored Agentic AI principles, trained Random Forest model \(R2: 0.37 on evaluation set\).) Tj ET
+BT /F2 13 Tf 50 232 Td (ACHIEVEMENTS, CERTIFICATIONS & COMMUNITY) Tj ET
+BT /F1 9 Tf 50 216 Td (- B.Tech CGPA: 9.64 / 10 at RIT Kottayam | NPTEL Java Programming - Top 5% Elite) Tj ET
+BT /F1 9 Tf 50 203 Td (- NPTEL Data Science for Engineers | IBM SkillsBuild Agentic AI Program Certificate) Tj ET
+BT /F1 9 Tf 50 190 Td (- Volunteer, TinkerHub RIT - Actively contributing to student developer events and workshops) Tj ET
+BT /F1 9 Tf 50 177 Td (- Technical Seminar: AI-Enabled Intelligent Defense for Link Flooding Attacks in SDNs \(IEEE 2026\)) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000004422 00000 n 
+0000004492 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4567
+%%EOF

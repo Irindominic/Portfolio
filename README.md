@@ -1,31 +1,27 @@
-🌐 Personal Portfolio Website
+# Irin Dominic — Portfolio
 
-    This is my personal portfolio website built using React and Tailwind CSS.
-    It showcases my profile, projects, and contact details in a clean and modern UI.
+A personal developer portfolio showcasing my skills, projects, experience, education, and achievements.
 
-    The website is fully responsive and designed to highlight my skills, interests, and work as a Computer Science student.
+**Live Website:** [https://portfolio-ruddy-phi-34.vercel.app/](https://portfolio-ruddy-phi-34.vercel.app/)
 
-🔗 Live URL:
-      https://portfolio-ruddy-phi-34.vercel.app/
+## Tech Stack
 
-🛠️ Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
 
-    Frontend: React.js
+## Run Locally
 
-    Styling: Tailwind CSS
+```bash
+# Clone the repository
+git clone https://github.com/Irindominic/Portfolio.git
 
-    Icons: React Icons
+# Navigate to the project directory
+cd Portfolio
 
-    Deployment: Vercel
+# Install dependencies
+npm install
 
-✨ Features
-
-    Responsive navigation bar
-
-    Hero section with social media links
-
-    About Me section
-
-    Projects showcase with GitHub links
-
-    Contact section with email and social links
+# Start the development server
+npm run dev
