@@ -102,7 +102,7 @@ const ProjectModal = ({ project, onClose }) => {
           </div>
         </div>
 
-        {/* WatchTower Threshold Visualizer */}
+        {/* WatchTower Threshold Visualizer
         {project.thresholdConfig && (
           <div className="mb-6 p-4 rounded-lg bg-indigo-950/20 border border-indigo-900/40">
             <div className="flex items-center gap-2 mb-2">
@@ -131,7 +131,7 @@ const ProjectModal = ({ project, onClose }) => {
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
         {/* Malayalam Fake Review Baseline Results */}
         {project.phase1Baseline && (

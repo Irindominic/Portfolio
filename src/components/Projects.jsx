@@ -37,12 +37,12 @@ const Projects = () => {
               Featured Projects
             </h2>
             <p className="text-zinc-400 text-xs sm:text-sm mt-1.5 max-w-xl">
-              Practical software applications, computer vision systems, and applied NLP research highlighting end-to-end technical problem solving and individual contributions.
+              {/* Practical software applications, computer vision systems, and applied NLP research highlighting end-to-end technical problem solving and individual contributions. */}
             </p>
             <div className="w-12 h-1 bg-indigo-500 rounded-full mt-2.5" />
           </div>
 
-          {/* Filter Pills */}
+          {/* Filter Pills
           <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-4 md:mt-0">
             <button
               onClick={() => setFilter("all")}
@@ -74,7 +74,7 @@ const Projects = () => {
             >
               Full-Stack (2)
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Project Cards Grid */}
@@ -118,11 +118,11 @@ const Projects = () => {
                       <span>Phase 1 Baseline (SVM + TF-IDF)</span>
                       <span className="text-zinc-400 text-[9px]">Preliminary</span>
                     </div>
-                    <div className="flex flex-wrap gap-2.5 font-mono text-[11px] text-zinc-300">
+                    {/* <div className="flex flex-wrap gap-2.5 font-mono text-[11px] text-zinc-300">
                       <div>Acc: <span className="font-bold text-white">{project.phase1Baseline.metrics[0].value}</span></div>
                       <div>Macro F1: <span className="font-bold text-white">{project.phase1Baseline.metrics[1].value}</span></div>
                       <div>Fake Recall: <span className="font-bold text-white">{project.phase1Baseline.metrics[3].value}</span></div>
-                    </div>
+                    </div> */}
                   </div>
                 )}
 
@@ -172,8 +172,8 @@ const Projects = () => {
                   onClick={() => setSelectedProject(project)}
                   className="inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300 py-1 transition-colors cursor-pointer"
                 >
-                  <span>View Full Case Study</span>
-                  <span className="text-xs">→</span>
+                  <span></span>
+                  <span className="text-xs"></span>
                 </button>
 
                 <a

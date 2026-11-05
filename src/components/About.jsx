@@ -29,7 +29,7 @@ const About = () => {
               </p>
             ))}
 
-            {/* Engineering Mindset Card */}
+            {/* Engineering Mindset Card
             <div className="mt-5 p-4 rounded-xl bg-zinc-950/70 border border-zinc-800 flex items-start gap-3.5">
               <div className="p-2 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 shrink-0">
                 <FaLightbulb size={16} />
@@ -42,7 +42,7 @@ const About = () => {
                   Focusing on first principles, understanding system constraints, and prioritizing clean code architecture and data integrity over superficial implementations.
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Education & Coursework Cards */}

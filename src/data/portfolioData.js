@@ -163,8 +163,7 @@ export const projectsData = [
       "Flask",
       "SQLAlchemy",
       "HTML",
-      "CSS",
-      "Database Management"
+      "CSS"
     ],
     majorFeatures: [
       "Separate user roles for farmers and customers",
@@ -216,24 +215,23 @@ export const projectsData = [
     statusBadge: "Completed Project",
     statusType: "fullstack",
     shortOverview:
-      "A crowd monitoring system that uses YOLOv5 for object detection and counting, combined with a web-based dashboard and threshold-based monitoring mechanisms.",
+      "A crowd monitoring system that uses ML for object detection and counting, combined with a web-based dashboard and threshold-based monitoring mechanisms.",
     problemStatement:
       "Monitoring crowd levels manually can be challenging. Automated detection and counting can help identify occupancy levels and trigger appropriate alerts when predefined thresholds are reached.",
     objective:
       "Develop an automated crowd monitoring application that combines computer vision, backend processing, and a real-time monitoring dashboard.",
     technologies: [
       "Python",
-      "YOLOv5",
       "FastAPI",
       "React",
       "PostgreSQL"
     ],
-    thresholdConfig: {
-      control: "65%",
-      restrict: "85%",
-      description:
-        "The system uses a 65% control threshold and an 85% restriction threshold to identify different crowd occupancy levels."
-    },
+    // thresholdConfig: {
+    //   control: "65%",
+    //   restrict: "85%",
+    //   description:
+    //     "The system uses a 65% control threshold and an 85% restriction threshold to identify different crowd occupancy levels."
+    // },
     majorFeatures: [
       "Crowd detection and counting using YOLOv5",
       "Threshold-based crowd monitoring",
@@ -296,10 +294,7 @@ export const projectsData = [
       "TF-IDF",
       "Support Vector Machine",
       "MuRIL",
-      "Large Language Models",
-      "SHAP",
-      "LIME",
-      "Integrated Gradients"
+
     ],
     classificationLabels:
       "Binary Classification: Genuine = 0, Fake = 1",
@@ -336,7 +331,7 @@ export const projectsData = [
     challengesAndLearnings:
       "Working with Malayalam text, handling language-specific characteristics, evaluating classification performance, and investigating potential style-related biases in fake review detection.",
     githubUrl:
-      "https://github.com/Irindominic/Malayalam-Fake-Review-Detection",
+      " https://github.com/Irindominic/fake-review-detection-system",
     liveDemoUrl: null,
     deploymentNotice:
       "Ongoing academic research project. Source code and current baseline implementation are available on GitHub.",
@@ -369,7 +364,7 @@ export const experienceData = [
   {
     role: "Data Science / Machine Learning Intern",
     organization: "TechMaghi",
-    duration: "June 15 – 21, 2025",
+    duration: "June , 2025",
     mode: "Hybrid",
     category: "Internship",
     description: "Hands-on internship in data science and machine learning foundations, focusing on analytical pipelines and algorithm exploration.",
@@ -382,21 +377,17 @@ export const experienceData = [
     skillsGained: ["Python", "Data Science", "Machine Learning", "Pandas", "Scikit-learn"]
   },
   {
-    role: "Agentic AI Program – Team 404 Coders",
-    organization: "IBM SkillsBuild in collaboration with CSRBOX",
-    duration: "July 4 – August 7, 2025",
-    mode: "Virtual / Collaborative",
-    category: "Specialized Program",
-    description: "Team-based technical training program exploring Agentic AI systems, automated workflow design, and machine learning model evaluation.",
-    responsibilities: [
-      "Participated in comprehensive Agentic AI curriculum exploring autonomous agent architectures and decision flows.",
-      "Collaborated as part of team '404 Coders' on machine learning experimentation and dataset analysis.",
-      "Contributed to Random Forest model training, hyperparameter review, and validation.",
-      "Conducted rigorous model evaluation, recording an R² score of 0.37 on the designated team evaluation dataset.",
-      "Strengthened understanding of agentic decision-making, collaborative version control, and ML metric reporting."
-    ],
-    skillsGained: ["Agentic AI", "Random Forest", "Model Evaluation", "R² Analysis", "Collaborative Engineering"]
-  }
+  role: "Web Development Intern",
+  organization: "PROXENIX",
+  duration: "July 2025",
+  mode: "Online",
+  category: "Internship",
+  description: "Gained practical exposure to web development through hands-on development tasks.",
+  responsibilities: [
+    "Worked on practical web development tasks."
+  ],
+  skillsGained: ["HTML","CSS","JavaScript"]
+}
 ];
 
 export const researchData = {
@@ -530,9 +521,9 @@ export const communityData = [
     role: "Student Volunteer",
     description: "Active contributor to the TinkerHub student technical community at Rajiv Gandhi Institute of Technology, Kottayam.",
     activities: [
-      "Volunteered at community developer meetups and technical bootcamps.",
-      "Collaborated with peers to foster open-source culture and peer-to-peer technical learning.",
-      "Supported campus tech initiatives promoting practical software development over rote learning."
-    ]
+  "Assisted in organizing and coordinating technical and non-technical events, workshops, and peer-learning initiatives.",
+  "Collaborated with the team to encourage student participation and strengthen the campus technical community.",
+  "Contributed to community building through event coordination and student engagement activities."
+]
   }
 ];

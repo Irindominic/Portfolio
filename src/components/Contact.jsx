@@ -35,7 +35,7 @@ const Contact = () => {
             Let's Connect
           </h2>
           <p className="text-zinc-400 text-xs sm:text-sm mt-1.5 max-w-xl">
-            Currently open to entry-level Product Engineer, Software Engineer, and internship opportunities. Feel free to reach out directly.
+            {/* Currently open to entry-level Product Engineer, Software Engineer, and internship opportunities. Feel free to reach out directly. */}
           </p>
           <div className="w-12 h-1 bg-indigo-500 rounded-full mt-2.5" />
         </div>
@@ -143,7 +143,7 @@ const Contact = () => {
 
           </div>
 
-          {/* Right Column: Direct Mail Composer */}
+          {/* Right Column: Direct Mail Composer
           <div className="lg:col-span-7">
             <div className="p-5 sm:p-6 rounded-xl bg-zinc-900/60 border border-zinc-800 shadow-lg">
               <h3 className="text-base sm:text-lg font-bold text-white mb-1">
@@ -191,7 +191,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
 
         </div>
 

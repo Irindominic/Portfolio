@@ -25,7 +25,7 @@ const Footer = () => {
               B.Tech Computer Science and Engineering • RIT Kottayam (2023–2027)
             </div>
             <div className="text-zinc-400 text-[10px] mt-0.5">
-              Candidate for Software Engineer & Product Engineer Roles
+              
             </div>
           </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
             <div>
               <div className="text-[11px]">© {new Date().getFullYear()} Irin Dominic. All rights reserved.</div>
               <div className="text-zinc-400 text-[10px] mt-0.5 font-mono">
-                Engineered with React & Tailwind CSS
+                
               </div>
             </div>
 

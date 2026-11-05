@@ -44,9 +44,9 @@ const Achievements = () => {
                   <h4 className="text-sm sm:text-base font-bold text-white">
                     {item.title}
                   </h4>
-                  <span className="shrink-0 px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                  {/* <span className="shrink-0 px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                    
-                  </span>
+                  </span> */}
                 </div>
                 <div className="text-xs font-medium text-indigo-400 mb-1.5">
                   {item.institution}
