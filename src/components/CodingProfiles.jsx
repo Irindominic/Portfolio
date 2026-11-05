@@ -68,8 +68,8 @@ const CodingProfiles = () => {
                 </div>
 
                 <div className="mt-4 pt-2.5 border-t border-zinc-800/60 flex items-center justify-between text-[10px] font-mono text-zinc-400">
-                  <span>Profile Link</span>
-                  <span className="text-emerald-400 font-semibold">Active</span>
+                  <span> </span>
+                  <span className="text-emerald-400 font-semibold"></span>
                 </div>
               </a>
             );

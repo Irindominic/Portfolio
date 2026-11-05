@@ -18,7 +18,7 @@ const Hero = () => {
             {/* Status Pill */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-zinc-900 border border-zinc-800 text-zinc-300 mb-4 shadow-sm">
               <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>Final-Year B.Tech CSE • RIT Kottayam (CGPA: 9.64/10)</span>
+              <span>Final-Year B.Tech CSE • RIT Kottayam (CGPA: 9.64)</span>
             </div>
 
             {/* Title & Name */}
@@ -35,7 +35,7 @@ const Hero = () => {
             <p className="text-xs sm:text-sm text-zinc-300 max-w-xl mx-auto lg:mx-0 leading-relaxed mb-6">
               I'm a final-year Computer Science Engineering student at RIT Kottayam, interested in software development, problem-solving, and AI-driven applications.
               <br className="hidden sm:inline" /><br className="hidden sm:inline" />
-              I enjoy exploring technologies, developing practical applications, and understanding how software systems work. Through academic projects, internships, and independent learning, I continuously work on strengthening my technical skills and building meaningful solutions.
+              {/* I enjoy exploring technologies, developing practical applications, and understanding how software systems work. Through academic projects, internships, and independent learning, I continuously work on strengthening my technical skills and building meaningful solutions. */}
             </p>
 
             {/* Highlighted Interests */}
@@ -142,7 +142,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Floating Academic Badge (neatly aligned, non-overflowing) */}
+              {/* Floating Academic Badge (neatly aligned, non-overflowing)
               <div className="hidden sm:flex absolute -bottom-3 left-2 sm:-left-2 bg-zinc-900/95 border border-zinc-700/80 rounded-xl p-2.5 shadow-xl items-center gap-2.5 backdrop-blur-md max-w-[95%]">
                 <div className="w-8 h-8 rounded-lg bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-indigo-400 shrink-0">
                   <FaGraduationCap size={16} />
@@ -151,7 +151,7 @@ const Hero = () => {
                   <div className="text-[11px] font-semibold text-zinc-200 truncate">Rajiv Gandhi Institute of Technology</div>
                   <div className="text-[10px] text-zinc-400 truncate">Govt. Engineering College, Kottayam</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -45,7 +45,7 @@ const Achievements = () => {
                     {item.title}
                   </h4>
                   <span className="shrink-0 px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                    Verified
+                   
                   </span>
                 </div>
                 <div className="text-xs font-medium text-indigo-400 mb-1.5">
@@ -57,11 +57,11 @@ const Achievements = () => {
               </div>
             ))}
 
-            {/* Academic Track Record Box */}
+            {/* Academic Track Record Box
             <div className="p-3.5 rounded-lg bg-gradient-to-r from-indigo-950/40 to-zinc-950 border border-indigo-900/30 text-xs text-zinc-300">
               <span className="font-semibold text-white">Academic Track Record: </span>
               Maintained consistent high performance across foundational computer science coursework at Rajiv Gandhi Institute of Technology, Kottayam.
-            </div>
+            </div> */}
           </div>
 
           {/* Column 2: Certifications */}
@@ -98,7 +98,7 @@ const Achievements = () => {
                   </p>
 
                   <div className="flex items-center justify-between text-[10px] text-zinc-400 pt-2 border-t border-zinc-800/60 font-mono">
-                    <span>Credential issued by accredited body</span>
+                    <span></span>
                     {cert.verificationUrl ? (
                       <a
                         href={cert.verificationUrl}
@@ -109,7 +109,7 @@ const Achievements = () => {
                         Verify Credential <FaExternalLinkAlt size={8} />
                       </a>
                     ) : (
-                      <span className="text-zinc-400 italic">Certificate verified</span>
+                      <span className="text-zinc-400 italic"></span>
                     )}
                   </div>
                 </div>

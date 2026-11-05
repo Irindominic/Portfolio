@@ -68,7 +68,7 @@ const Community = () => {
             </div>
           ))}
 
-          {/* Extensibility Slot */}
+          {/* Extensibility Slot
           <div className="md:col-span-4 p-5 sm:p-6 rounded-xl bg-zinc-950/40 border border-dashed border-zinc-800 flex flex-col justify-between">
             <div>
               <div className="w-9 h-9 rounded-lg bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 mb-3">
@@ -85,7 +85,7 @@ const Community = () => {
             <div className="pt-3 border-t border-zinc-900 text-[10px] font-mono text-zinc-400">
               Active student developer participation
             </div>
-          </div>
+          </div> */}
 
         </div>
 

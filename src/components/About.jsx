@@ -59,7 +59,7 @@ const About = () => {
                     <div className="text-[10px] font-mono uppercase tracking-wider text-indigo-400 font-semibold">
                       Undergraduate Degree
                     </div>
-                    <div className="text-xs text-zinc-400">Formal Education</div>
+                    <div className="text-xs text-zinc-400"></div>
                   </div>
                 </div>
                 <div className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono font-bold text-xs">
@@ -75,8 +75,8 @@ const About = () => {
               </div>
               <div className="text-xs font-mono text-zinc-400 mb-3 flex items-center gap-2">
                 <span>Duration: {aboutData.education.duration}</span>
-                <span>•</span>
-                <span>KTU Affiliated</span>
+                <span></span>
+                <span></span>
               </div>
               <p className="text-xs text-zinc-400 leading-relaxed border-t border-zinc-800/80 pt-2.5">
                 {aboutData.education.highlights}
@@ -94,7 +94,7 @@ const About = () => {
                     Relevant Coursework
                   </h4>
                   <div className="text-xs text-zinc-400">
-                    Core academic subjects completed
+                    
                   </div>
                 </div>
               </div>

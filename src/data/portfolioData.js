@@ -8,14 +8,14 @@ export const personalInfo = {
   institution: "Rajiv Gandhi Institute of Technology (RIT), Kottayam",
   degree: "B.Tech in Computer Science and Engineering",
   graduationYear: "2027",
-  cgpa: "9.64 / 10",
+  cgpa: "9.64 ",
   email: "irindominic987@gmail.com",
   location: "Kottayam, Kerala, India",
   github: "https://github.com/Irindominic",
   linkedin: "https://www.linkedin.com/in/irindominic/",
   resumeUrl: "/Irin_Dominic_Resume.pdf", // Configurable path to resume
-  
-  heroIntro: "I'm a final-year Computer Science Engineering student at RIT Kottayam, interested in software development, problem-solving, and AI-driven applications.\n\nI enjoy exploring technologies, developing practical applications, and understanding how software systems work. Through academic projects, internships, and independent learning, I continuously work on strengthening my technical skills and building meaningful solutions.",
+heroIntro: "I'm a Computer Science Engineering student passionate about software development, problem-solving, and building practical technology solutions."
+,
   
   coreInterests: [
     "Software Development",
@@ -27,16 +27,16 @@ export const personalInfo = {
 
 export const aboutData = {
   summary: [
-    "I'm currently pursuing a Bachelor of Technology in Computer Science and Engineering at Rajiv Gandhi Institute of Technology, Kottayam.",
-    "I have a strong academic foundation and enjoy exploring different areas of computer science through coursework, practical implementation, and technical projects.",
-    "My interests include software engineering, backend development, full-stack applications, and artificial intelligence. I have worked on projects involving web technologies, database systems, computer vision, and machine learning.",
-    "I believe in learning through implementation and enjoy understanding the problem behind a technology rather than simply using it."
-  ],
+  "I'm pursuing a Bachelor of Technology in Computer Science and Engineering at Rajiv Gandhi Institute of Technology, Kottayam, with a strong academic foundation.",
+  "I enjoy exploring different areas of computer science through coursework, hands-on implementation, and technical projects.",
+  "My interests include software development, backend engineering, full-stack applications, and artificial intelligence. I have worked on projects involving web technologies, databases, computer vision, and machine learning.",
+  "I believe in learning by building, continuously exploring new technologies, and strengthening my problem-solving skills through practical experience."
+],
   education: {
     degree: "B.Tech Computer Science and Engineering",
     institution: "Rajiv Gandhi Institute of Technology (RIT), Kottayam",
     duration: "2023–2027",
-    cgpa: "9.64 / 10",
+    cgpa: "9.64 ",
     highlights: "Consistent academic excellence with a strong foundation in core computer science disciplines."
   },
   coursework: [
@@ -44,10 +44,7 @@ export const aboutData = {
     "Object-Oriented Programming",
     "Database Management Systems",
     "Operating Systems",
-    "Computer Networks",
-    "Computer Organization and Architecture",
-    "Compiler Design",
-    "Discrete Mathematical Structures"
+    "Computer Networks"
   ]
 };
 
@@ -71,31 +68,6 @@ export const skillsData = [
     skills: ["Flask", "FastAPI", "Node.js", "Express.js"]
   },
   {
-    category: "Databases",
-    icon: "database",
-    description: "Relational, document, and ORM database management",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "SQLAlchemy"]
-  },
-  {
-    category: "AI / Machine Learning",
-    icon: "brain",
-    description: "Data analysis, computer vision, and NLP frameworks",
-    skills: [
-      "Scikit-learn",
-      "Pandas",
-      "NumPy",
-      "YOLOv5",
-      "Natural Language Processing",
-      "Machine Learning fundamentals"
-    ]
-  },
-  {
-    category: "Tools and Platforms",
-    icon: "tool",
-    description: "Version control, development environments, and API tooling",
-    skills: ["Git", "GitHub", "VS Code", "Postman"]
-  },
-  {
     category: "Core Computer Science",
     icon: "cpu",
     description: "Foundational computer science principles",
@@ -109,7 +81,202 @@ export const skillsData = [
   }
 ];
 
+
 export const projectsData = [
+  {
+    id: "brightbytes",
+    title: "BrightBytes – Learning Dashboard",
+    subtitle: "Interactive Learning Management Dashboard",
+    category: "Web Application / Education Technology",
+    statusBadge: "Completed Project",
+    statusType: "fullstack",
+    shortOverview:
+      "A learning-focused dashboard designed to provide users with an organized interface for accessing and managing educational content.",
+    problemStatement:
+      "Learners need an organized digital interface to access learning materials and manage their learning activities.",
+    objective:
+      "Develop a learning dashboard that provides a structured and accessible environment for educational activities.",
+    technologies: [],
+    majorFeatures: [
+      "Learning-focused dashboard interface",
+      "Organized presentation of educational content",
+      "Centralized access to learning resources"
+    ],
+    technicalImplementation: [],
+    myContribution:
+      "Project development and implementation.",
+    challengesAndLearnings:
+      "Gained experience in developing an application focused on organizing and presenting learning-related information.",
+    githubUrl:
+      "https://github.com/Irindominic/BrightBytes-Learning-Dashboard",
+    liveDemoUrl: null,
+    deploymentNotice:
+      "Source code available on GitHub.",
+    architectureSteps: []
+  },
+  {
+    id: "finger-gestured-music-player",
+    title: "Finger Gestured Music Player",
+    subtitle: "Gesture-Based Music Player",
+    category: "Gesture Recognition / Application Development",
+    statusBadge: "Completed Project",
+    statusType: "local",
+    shortOverview:
+      "A music player application that uses finger gestures to provide an alternative way of interacting with music playback.",
+    problemStatement:
+      "Traditional music players require direct interaction with physical controls or on-screen buttons. Gesture-based interaction provides an alternative approach to controlling playback.",
+    objective:
+      "Develop a music player that enables users to interact with music playback through finger gestures.",
+    technologies: [],
+    majorFeatures: [
+      "Finger gesture-based interaction",
+      "Gesture-controlled music playback",
+      "Alternative hands-free interaction with a music player"
+    ],
+    technicalImplementation: [],
+    myContribution:
+      "Project development and implementation.",
+    challengesAndLearnings:
+      "Explored gesture-based interaction and alternative approaches to user input and application control.",
+    githubUrl:
+      "https://github.com/Irindominic/Finger_gestured_music-player",
+    liveDemoUrl: null,
+    deploymentNotice:
+      "Source code available on GitHub.",
+    architectureSteps: []
+  },
+  {
+    id: "farmconnect",
+    title: "FarmConnect",
+    subtitle: "Agricultural Marketplace Connecting Farmers and Customers",
+    category: "Full-Stack Web Application",
+    statusBadge: "Completed Project",
+    statusType: "fullstack",
+    shortOverview:
+      "A web-based agricultural platform designed to connect farmers directly with customers, enabling farmers to showcase their products through a digital marketplace.",
+    problemStatement:
+      "Farmers may face difficulties reaching customers and promoting their agricultural products through accessible digital platforms.",
+    objective:
+      "Develop a web application that facilitates interaction between farmers and customers through product listings and user management.",
+    technologies: [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "HTML",
+      "CSS",
+      "Database Management"
+    ],
+    majorFeatures: [
+      "Separate user roles for farmers and customers",
+      "User registration and authentication",
+      "Agricultural product listings",
+      "Product catalog management",
+      "Database-backed application functionality"
+    ],
+    technicalImplementation: [
+      "Flask-based backend application",
+      "SQLAlchemy ORM for database operations",
+      "User authentication and session management",
+      "Database models for users and product information",
+      "Integration of backend functionality with the web interface"
+    ],
+    myContribution:
+      "Worked on backend development using Python and Flask, database management using SQLAlchemy, and user authentication functionality.",
+    challengesAndLearnings:
+      "Gained practical experience in backend development, relational database management, authentication, and integrating application components.",
+    githubUrl:
+      "https://github.com/Irindominic/Farm_Connect",
+    liveDemoUrl: null,
+    deploymentNotice:
+      "Source code available on GitHub.",
+    architectureSteps: [
+      {
+        name: "Web Interface",
+        detail: "User-facing interface for farmers and customers"
+      },
+      {
+        name: "Flask Backend",
+        detail: "Application routing, authentication, and backend logic"
+      },
+      {
+        name: "SQLAlchemy",
+        detail: "Database models and ORM operations"
+      },
+      {
+        name: "Database",
+        detail: "Storage of user and product information"
+      }
+    ]
+  },
+  {
+    id: "watchtower",
+    title: "WatchTower",
+    subtitle: "Computer Vision-Based Crowd Monitoring System",
+    category: "Artificial Intelligence / Computer Vision / Full-Stack Development",
+    statusBadge: "Completed Project",
+    statusType: "fullstack",
+    shortOverview:
+      "A crowd monitoring system that uses YOLOv5 for object detection and counting, combined with a web-based dashboard and threshold-based monitoring mechanisms.",
+    problemStatement:
+      "Monitoring crowd levels manually can be challenging. Automated detection and counting can help identify occupancy levels and trigger appropriate alerts when predefined thresholds are reached.",
+    objective:
+      "Develop an automated crowd monitoring application that combines computer vision, backend processing, and a real-time monitoring dashboard.",
+    technologies: [
+      "Python",
+      "YOLOv5",
+      "FastAPI",
+      "React",
+      "PostgreSQL"
+    ],
+    thresholdConfig: {
+      control: "65%",
+      restrict: "85%",
+      description:
+        "The system uses a 65% control threshold and an 85% restriction threshold to identify different crowd occupancy levels."
+    },
+    majorFeatures: [
+      "Crowd detection and counting using YOLOv5",
+      "Threshold-based crowd monitoring",
+      "65% control and 85% restriction thresholds",
+      "React-based monitoring dashboard",
+      "FastAPI backend integration",
+      "PostgreSQL database integration"
+    ],
+    technicalImplementation: [
+      "YOLOv5-based object detection and counting",
+      "Threshold evaluation for monitoring crowd occupancy",
+      "FastAPI backend for application functionality",
+      "React frontend for displaying monitoring information",
+      "PostgreSQL for storing relevant monitoring data"
+    ],
+    myContribution:
+      "Contributed to the development of the crowd monitoring application, including frontend and backend integration, object detection and counting, threshold-based monitoring, and database functionality.",
+    challengesAndLearnings:
+      "Gained practical experience in integrating computer vision with web application development and implementing threshold-based monitoring logic.",
+    githubUrl:
+      "https://github.com/Irindominic/Watch-TowerCrowd",
+    liveDemoUrl: null,
+    deploymentNotice:
+      "Locally executed project. Source code available on GitHub.",
+    architectureSteps: [
+      {
+        name: "React Frontend",
+        detail: "Monitoring dashboard for displaying crowd counts and status"
+      },
+      {
+        name: "FastAPI Backend",
+        detail: "Backend processing and application communication"
+      },
+      {
+        name: "YOLOv5",
+        detail: "Object detection and crowd counting"
+      },
+      {
+        name: "PostgreSQL",
+        detail: "Database storage for monitoring information"
+      }
+    ]
+  },
   {
     id: "malayalam-fake-review",
     title: "Malayalam Fake Product Review Detection System",
@@ -117,9 +284,12 @@ export const projectsData = [
     category: "Final-Year Project / Natural Language Processing / Machine Learning",
     statusBadge: "Ongoing – Final Year Project",
     statusType: "research",
-    shortOverview: "A machine learning and NLP system to detect deceptive product reviews written in Malayalam, distinguishing genuine feedback from opinion spam and synthetic LLM-generated deceptive content.",
-    problemStatement: "The availability of deceptive product reviews can affect the reliability of online product feedback. Detecting fake reviews in Malayalam presents additional challenges because of language-specific characteristics, agglutinative morphology, and limited annotated resources.",
-    objective: "Develop a Malayalam-language fake review detection system using machine learning and language models, with explainability techniques to help understand model predictions.",
+    shortOverview:
+      "A Malayalam-language fake product review detection system that aims to distinguish genuine reviews from deceptive reviews, including human-written opinion spam and LLM-generated synthetic reviews.",
+    problemStatement:
+      "Fake product reviews can mislead consumers and affect trust in online shopping platforms. Detecting deceptive reviews in Malayalam presents additional challenges due to the language's morphological characteristics and limited annotated resources.",
+    objective:
+      "Develop a machine learning and language-model-based system for identifying fake product reviews written in Malayalam, incorporating explainability techniques to understand model predictions.",
     technologies: [
       "Python",
       "Natural Language Processing",
@@ -131,27 +301,28 @@ export const projectsData = [
       "LIME",
       "Integrated Gradients"
     ],
-    classificationLabels: "Binary Classification: Genuine = 0, Fake = 1",
+    classificationLabels:
+      "Binary Classification: Genuine = 0, Fake = 1",
     majorFeatures: [
-      "Targeted for low-resource Malayalam text analysis",
-      "Distinguishes human opinion spam and LLM-generated synthetic reviews",
-      "Classical ML baseline (TF-IDF + Support Vector Machine)",
-      "Roadmap for Multilingual transformer models (MuRIL) and PEFT LLM fine-tuning",
-      "Planned explainability framework using SHAP, LIME, and Integrated Gradients"
+      "Malayalam-language fake review detection",
+      "Detection of human-written opinion spam and LLM-generated deceptive reviews",
+      "TF-IDF and SVM-based machine learning baseline",
+      "Exploration of multilingual transformer models",
+      "Planned explainability using SHAP, LIME, and Integrated Gradients"
     ],
     technicalImplementation: [
-      "Malayalam text preprocessing: tokenization, stopword filtering, and normalization",
-      "Dataset curation and balanced genuine/fake class distribution",
-      "TF-IDF feature extraction capturing unigram and bigram frequency patterns",
-      "Support Vector Machine baseline classifier for Phase 1 experimentation",
-      "Exploration of multilingual transformer representations (MuRIL) for contextual semantics",
-      "Exploration of Parameter-Efficient Fine-Tuning (PEFT) on open Large Language Models",
-      "Interpretability pipeline using SHAP, LIME, and Integrated Gradients to identify salient token attributions"
+      "Malayalam text preprocessing and normalization",
+      "TF-IDF feature extraction",
+      "SVM-based binary classification",
+      "Model evaluation using classification metrics",
+      "Exploration of MuRIL and parameter-efficient LLM fine-tuning",
+      "Planned model interpretation using explainability techniques"
     ],
-    myContribution: "Responsible for Malayalam text preprocessing, TF-IDF feature extraction, classical machine learning baseline implementation, model evaluation, and style-confound and error analysis.",
+    myContribution:
+      "Responsible for Malayalam text preprocessing, TF-IDF feature extraction, classical machine learning baseline implementation, model evaluation, and style-confound and error analysis.",
     phase1Baseline: {
       isPreliminary: true,
-      title: "Current Phase 1 Baseline Results (TF-IDF + SVM)",
+      title: "Phase 1 Baseline Results – TF-IDF + SVM",
       metrics: [
         { label: "Accuracy", value: "69.96%" },
         { label: "Macro F1-Score", value: "69.81%" },
@@ -159,134 +330,37 @@ export const projectsData = [
         { label: "Fake Recall", value: "73.33%" },
         { label: "Genuine F1-Score", value: "67.70%" }
       ],
-      note: "These represent preliminary baseline results. Deep transformer training (MuRIL), PEFT LLM fine-tuning, and model explainability modules are actively ongoing."
+      note:
+        "Preliminary results from the current Phase 1 baseline. Transformer-based experiments, LLM fine-tuning, and explainability modules are part of the ongoing development."
     },
-    challengesAndLearnings: "Handling low-resource language nuances in Malayalam, addressing morphological agglutination, and systematically evaluating style confounds so the classifier does not merely memorize review length or punctuation idiosyncrasies.",
-    githubUrl: "https://github.com/Irindominic/Malayalam-Fake-Review-Detection",
+    challengesAndLearnings:
+      "Working with Malayalam text, handling language-specific characteristics, evaluating classification performance, and investigating potential style-related biases in fake review detection.",
+    githubUrl:
+      "https://github.com/Irindominic/Malayalam-Fake-Review-Detection",
     liveDemoUrl: null,
-    deploymentNotice: "Academic research project currently in active development. Source code, dataset preprocessing scripts, and baseline evaluation are documented in the repository.",
+    deploymentNotice:
+      "Ongoing academic research project. Source code and current baseline implementation are available on GitHub.",
     architectureSteps: [
-      { name: "Malayalam Corpus", detail: "Human genuine, opinion spam, and LLM synthetic reviews" },
-      { name: "NLP Preprocessing", detail: "Morphological cleaning, tokenization, stopword removal" },
-      { name: "Feature Extraction", detail: "TF-IDF n-grams (Baseline) & Multilingual MuRIL embeddings" },
-      { name: "Classification", detail: "SVM Baseline (Phase 1) -> MuRIL / LLM PEFT (Phase 2)" },
-      { name: "Explainability", detail: "SHAP, LIME, and Integrated Gradients token attribution" }
-    ]
-  },
-  {
-    id: "watchtower",
-    title: "WatchTower",
-    subtitle: "Computer Vision-Based Monitoring & Occupancy Control",
-    category: "AI / Computer Vision / Full-Stack Application",
-    statusBadge: "Locally Executed Project",
-    statusType: "local",
-    shortOverview: "A computer vision monitoring system combining YOLOv5 real-time object detection and counting with threshold-based environmental control mechanisms.",
-    problemStatement: "Monitoring environments and maintaining defined occupancy or object-count limits can require automated detection and monitoring systems to prevent overcrowding and ensure compliance.",
-    objective: "Develop an application that integrates computer vision with a web-based monitoring interface and threshold-driven control logic.",
-    technologies: ["Python", "FastAPI", "React", "PostgreSQL", "YOLOv5"],
-    thresholdConfig: {
-      control: "65%",
-      restrict: "85%",
-      description: "When count reaches 65% of limit, active control protocols engage. At 85%, restrict protocols enforce access bounds."
-    },
-    majorFeatures: [
-      "Real-time object detection and continuous instance counting via YOLOv5",
-      "Two-tier threshold control mechanism (65% Control Threshold, 85% Restrict Threshold)",
-      "FastAPI asynchronous backend for low-latency detection telemetry",
-      "React-based interactive monitoring dashboard",
-      "PostgreSQL database integration for logging detection intervals and counts"
-    ],
-    technicalImplementation: [
-      "YOLOv5 inference pipeline processing frames and computing target entity counts",
-      "Threshold evaluation logic: Control at 65%, Restrict at 85%",
-      "FastAPI backend delivering REST endpoints and handling detection events",
-      "React frontend dashboard displaying live counts, threshold alerts, and status",
-      "PostgreSQL schema storing timestamped detection events, counts, and alert triggers"
-    ],
-    myContribution: "Contributed across frontend development, backend API design, YOLOv5 detection and counting integration, threshold logic implementation, and PostgreSQL database storage based on the project codebase.",
-    challengesAndLearnings: "Calibrating continuous detection frequency to maintain high responsiveness and syncing threshold alert state transitions smoothly between the FastAPI backend and React frontend.",
-    githubUrl: "https://github.com/Irindominic/WatchTower",
-    liveDemoUrl: null,
-    deploymentNotice: "This project runs in a local environment with webcam/video stream processing. Documented through source code, architecture diagrams, and system logic.",
-    architectureSteps: [
-      { name: "React Frontend", detail: "Real-time dashboard showing status, count metrics, and threshold gauges" },
-      { name: "FastAPI Backend", detail: "High-performance async server managing detection queries and thresholds" },
-      { name: "YOLOv5 Vision Engine", detail: "Detects objects, applies confidence thresholds, and computes totals" },
-      { name: "PostgreSQL Database", detail: "Persists time-stamped count logs and threshold breach history" }
-    ]
-  },
-  {
-    id: "farmconnect",
-    title: "FarmConnect",
-    subtitle: "Agricultural Marketplace & Direct Producer Platform",
-    category: "Full-Stack Web Application",
-    statusBadge: "Completed Web Application",
-    statusType: "fullstack",
-    shortOverview: "A web-based agricultural platform designed to improve connectivity between farmers and customers by providing a digital platform for accessing agricultural products and related services.",
-    problemStatement: "Farmers may face difficulties reaching customers and presenting their agricultural products through accessible digital platforms, often relying on intermediaries that reduce profit margins.",
-    objective: "Develop a web-based platform that facilitates interaction between farmers and customers.",
-    technologies: ["Python", "Flask", "SQLAlchemy", "Database Management"],
-    majorFeatures: [
-      "Direct digital platform linking agricultural producers with consumers",
-      "User authentication and profile management for farmers and customers",
-      "Structured product listing and inventory catalog",
-      "Relational database models mapping orders, users, and agricultural listings",
-      "Clean UI integrating backend Flask routing and templates"
-    ],
-    technicalImplementation: [
-      "Flask-based backend routing and session management",
-      "SQLAlchemy ORM modeling user accounts, products, and categories",
-      "User authentication and access verification",
-      "Relational database management ensuring data integrity",
-      "Backend functionality integrated with the web presentation layer"
-    ],
-    myContribution: "Implemented backend development using Python Flask, configured database schemas and queries using SQLAlchemy, built user authentication workflows, and connected backend logic to the application interface.",
-    challengesAndLearnings: "Designing clean relational schemas in SQLAlchemy to handle distinct user roles (farmers vs customers) and structuring clean separation of concerns in Flask application factories.",
-    githubUrl: "https://github.com/Irindominic/Farm_Connect",
-    liveDemoUrl: null,
-    deploymentNotice: "Demonstrated through source code and database architecture. Previous deployment link has been retired; full code is available on GitHub.",
-    architectureSteps: [
-      { name: "Web Interface", detail: "Product catalog, farmer profiles, and interaction views" },
-      { name: "Flask Application", detail: "Request dispatcher, session auth, and business logic" },
-      { name: "SQLAlchemy ORM", detail: "Object-relational mapping, transactions, and schema management" },
-      { name: "Database Engine", detail: "Persistent storage of user accounts, product catalogs, and transactions" }
-    ]
-  },
-  {
-    id: "ai-study-buddy",
-    title: "AI Study Buddy",
-    subtitle: "Interactive Generative AI Study Companion",
-    category: "Full-Stack / Generative AI Application",
-    statusBadge: "Full-Stack Generative AI",
-    statusType: "fullstack",
-    shortOverview: "An AI-powered study assistance application designed to help users interact with an AI assistant for learning-related support, concept clarification, and academic guidance.",
-    problemStatement: "Students often need accessible assistance when understanding complex topics and seeking clear, responsive explanations during their independent learning process.",
-    objective: "Build an interactive application that integrates generative AI capabilities into a study assistance platform.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "OpenRouter"],
-    majorFeatures: [
-      "Interactive conversational study interface tailored for conceptual explanations",
-      "OpenRouter API integration for prompt processing and AI-driven responses",
-      "Express.js REST API layer handling prompt forwarding and response buffering",
-      "MongoDB database integration for logging chat history and sessions",
-      "Modern responsive UI built with React and styled with Tailwind CSS"
-    ],
-    technicalImplementation: [
-      "React frontend components providing a clean study assistant interface",
-      "Tailwind CSS styling for modern readability and mobile responsiveness",
-      "Node.js and Express.js backend managing API routes and error handling",
-      "Secure API integration with OpenRouter to leverage AI language models",
-      "MongoDB schema integration for tracking queries and session logs"
-    ],
-    myContribution: "Developed the frontend interface with React and Tailwind CSS, engineered Express.js backend endpoints, integrated OpenRouter API calls for model interaction, and managed MongoDB database persistence.",
-    challengesAndLearnings: "Handling API rate limits, sanitizing user inputs, and managing asynchronous state changes gracefully in React during streaming and multi-turn conversations.",
-    githubUrl: "https://github.com/Irindominic/AI-Study-Buddy",
-    liveDemoUrl: null,
-    deploymentNotice: "Source code available on GitHub. Backend requires OpenRouter API keys and MongoDB connection string for local execution.",
-    architectureSteps: [
-      { name: "React + Tailwind UI", detail: "Clean conversational workspace for academic problem queries" },
-      { name: "Express.js Backend", detail: "Handles routing, payload validation, and request coordination" },
-      { name: "OpenRouter API", detail: "Translates academic prompts into structured, conceptual explanations" },
-      { name: "MongoDB Database", detail: "Stores session records, interaction history, and timestamps" }
+      {
+        name: "Malayalam Dataset",
+        detail: "Genuine and deceptive Malayalam product reviews"
+      },
+      {
+        name: "Text Preprocessing",
+        detail: "Malayalam text normalization and preprocessing"
+      },
+      {
+        name: "Feature Extraction",
+        detail: "TF-IDF features for the classical ML baseline"
+      },
+      {
+        name: "Classification",
+        detail: "SVM baseline with planned transformer and LLM experiments"
+      },
+      {
+        name: "Explainability",
+        detail: "Planned SHAP, LIME, and Integrated Gradients analysis"
+      }
     ]
   }
 ];
@@ -386,39 +460,55 @@ export const researchData = {
   }
 };
 
+
 export const achievementsData = {
   achievements: [
     {
-      title: "B.Tech Academic Excellence – CGPA: 9.64 / 10",
+      title: "B.Tech Academic Excellence – CGPA: 9.64",
       institution: "Rajiv Gandhi Institute of Technology (RIT), Kottayam",
-      detail: "Top-tier academic performance across core Computer Science and Engineering coursework (2023–2027)."
+      detail: "Maintained a strong academic record in Computer Science and Engineering (2023–2027)."
     },
     {
       title: "NPTEL Java Programming – Top 5%",
-      institution: "NPTEL / IIT Kharagpur (Ministry of Education, Govt. of India)",
-      detail: "Awarded Elite + Top 5% ranking for exceptional performance in nationwide Java programming examination."
+      institution: "NPTEL / IIT Kharagpur",
+      detail: "Secured a position in the top 5% of learners in the Java Programming course."
     }
   ],
+
   certifications: [
     {
-      name: "Programming In Java",
-      organization: "NPTEL",
-      grade: "Elite – Top 5%",
-      description: "Rigorous certification covering OOP, multithreading, exception handling, collections framework, and JVM internals.",
-      verificationUrl: null // Editable placeholder for official certificate URL
+      name: "Artificial Intelligence Fundamentals",
+      organization: "IBM SkillsBuild",
+      grade: "Certificate of Completion",
+      description: "Completed foundational training in Artificial Intelligence through IBM SkillsBuild.",
+      verificationUrl: null
     },
     {
       name: "Data Science for Engineers",
       organization: "NPTEL / IIT Madras",
       grade: "Completed",
-      description: "Comprehensive coverage of linear algebra, probability, data preprocessing, regression, and machine learning models in R/Python.",
+      description: "Covered fundamental concepts of data science, including mathematical foundations, data analysis, and machine learning.",
       verificationUrl: null
     },
     {
       name: "Agentic AI Program",
       organization: "IBM SkillsBuild in collaboration with CSRBOX",
       grade: "Program Certificate",
-      description: "Training in autonomous agent workflows, machine learning models, and collaborative data science.",
+      description: "Completed training in Agentic AI as part of the IBM SkillsBuild program.",
+      verificationUrl: null
+    },
+    {
+      name: "TINK-HER-HACK 3.0",
+      organization: "TinkerHub",
+      grade: "Participation Certificate",
+      description: "Participated in TINK-HER-HACK 3.0, a hackathon organized by TinkerHub.",
+      verificationUrl: null
+    },
+    {
+      name: "IEEEXtreme 18.0",
+      organization: "IEEE",
+      grade: "Participation Certificate",
+      description: "Participated in IEEEXtreme 18.0, an international 24-hour programming competition.",
       verificationUrl: null
     }
   ]
@@ -426,34 +516,10 @@ export const achievementsData = {
 
 export const codingProfilesData = [
   {
-    platform: "GitHub",
-    url: "https://github.com/Irindominic",
-    handle: "Irindominic",
-    description: "Source code repositories for academic, full-stack, computer vision, and machine learning projects."
-  },
-  {
     platform: "LeetCode",
-    url: "https://leetcode.com/u/irindominic/",
+    url: "https://leetcode.com/u/Irin_Dominic/",
     handle: "irindominic",
     description: "Practice repository for Data Structures, Algorithms, and analytical problem-solving."
-  },
-  {
-    platform: "HackerRank",
-    url: "https://www.hackerrank.com/profile/irindominic987",
-    handle: "irindominic987",
-    description: "Core programming language skills, SQL, and algorithmic challenges."
-  },
-  {
-    platform: "GeeksforGeeks",
-    url: "https://www.geeksforgeeks.org/user/irindominic987/",
-    handle: "irindominic987",
-    description: "Core computer science fundamentals, DSA problems, and topic-wise practice."
-  },
-  {
-    platform: "CodeChef",
-    url: "https://www.codechef.com/users/irindominic",
-    handle: "irindominic",
-    description: "Competitive programming contests and algorithmic problem practice."
   }
 ];
 
