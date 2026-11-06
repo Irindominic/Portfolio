@@ -432,7 +432,7 @@ export const achievementsData = {
     {
       name: "Machine Learning and Deep Learning - Fundamentals and Applications",
       organization: "NPTEL / IIT Guwahati",
-      grade: "Elite – 72%",
+      grade: "Course Completion",
       description: "Successfully completed the 12-week NPTEL course covering the fundamentals and applications of machine learning and deep learning, with a consolidated score of 72%.",
       verificationUrl:"https://drive.google.com/file/d/1fqB9m3g4lhwvhjjqTR4NVxBsMwBe5TUf/view?usp=sharing"
     },
