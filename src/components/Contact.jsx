@@ -96,7 +96,7 @@ const Contact = () => {
                   Curriculum Vitae
                 </div>
                 <div className="text-xs sm:text-sm font-bold text-white mb-0.5">
-                  Download Updated Resume
+                  Download Resume
                 </div>
                 <div className="text-[11px] text-zinc-400">
                   PDF format • Academic & Projects
