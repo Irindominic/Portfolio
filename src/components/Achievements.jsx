@@ -41,9 +41,24 @@ const Achievements = () => {
                 className="p-4 sm:p-5 rounded-xl bg-zinc-950/80 border border-zinc-800/80 hover:border-zinc-700/80 shadow-md transition-all"
               >
                 <div className="flex items-start justify-between gap-2.5 mb-1.5">
-                  <h4 className="text-sm sm:text-base font-bold text-white">
+                  {/* <h4 className="text-sm sm:text-base font-bold text-white">
                     {item.title}
-                  </h4>
+                  </h4> */}
+                  <h4 className="text-sm sm:text-base font-bold">
+                  {item.verificationUrl ? (
+                    <a
+                      href={item.verificationUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white hover:text-indigo-400 hover:underline transition-colors inline-flex items-center gap-1.5"
+                    >
+                      {item.title}
+                      <FaExternalLinkAlt size={10} className="text-indigo-400" />
+                    </a>
+                  ) : (
+                    <span className="text-white">{item.title}</span>
+                  )}
+                </h4>
                   {/* <span className="shrink-0 px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                    
                   </span> */}
@@ -81,8 +96,23 @@ const Achievements = () => {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 mb-1.5">
                     <div>
-                      <h4 className="text-sm sm:text-base font-bold text-white">
+                      {/* <h4 className="text-sm sm:text-base font-bold text-white">
                         {cert.name}
+                      </h4> */}
+                        <h4 className="text-sm sm:text-base font-bold">
+                        {cert.verificationUrl ? (
+                          <a
+                            href={cert.verificationUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white hover:text-indigo-400 hover:underline transition-colors inline-flex items-center gap-1.5"
+                          >
+                            {cert.name}
+                            <FaExternalLinkAlt size={10} className="text-indigo-400" />
+                          </a>
+                        ) : (
+                          <span className="text-white">{cert.name}</span>
+                        )}
                       </h4>
                       <div className="text-xs text-indigo-400 font-medium">
                         {cert.organization}
@@ -106,7 +136,7 @@ const Achievements = () => {
                         rel="noopener noreferrer"
                         className="text-indigo-400 hover:underline flex items-center gap-1"
                       >
-                        Verify Credential <FaExternalLinkAlt size={8} />
+                      {/* <FaExternalLinkAlt size={8} /> */}
                       </a>
                     ) : (
                       <span className="text-zinc-400 italic"></span>

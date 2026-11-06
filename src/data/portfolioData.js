@@ -409,7 +409,8 @@ export const achievementsData = {
     {
       title: "NPTEL Java Programming – Top 5%",
       institution: "NPTEL / IIT Kharagpur",
-      detail: "Secured a position in the top 5% of learners in the Java Programming course."
+      detail: "Secured a position in the top 5% of learners in the Java Programming course.",
+      verificationUrl:"https://drive.google.com/file/d/1rtQTh4rViF5Yeh74kmuixi4rJM1nOo75/view?usp=sharing"
     }
   ],
 
@@ -426,28 +427,28 @@ export const achievementsData = {
       organization: "NPTEL / IIT Madras",
       grade: "Course Completion",
       description: "Covered fundamental concepts of data science, including mathematical foundations, data analysis, and machine learning.",
-      verificationUrl: null
+      verificationUrl: "https://drive.google.com/file/d/1DXq5bZiZ6azsStQSzdlzQVANnFBfqmXo/view?usp=sharing"
     },
     {
       name: "Machine Learning and Deep Learning - Fundamentals and Applications",
       organization: "NPTEL / IIT Guwahati",
       grade: "Elite – 72%",
       description: "Successfully completed the 12-week NPTEL course covering the fundamentals and applications of machine learning and deep learning, with a consolidated score of 72%.",
-      verificationUrl: null
+      verificationUrl:"https://drive.google.com/file/d/1fqB9m3g4lhwvhjjqTR4NVxBsMwBe5TUf/view?usp=sharing"
     },
     {
       name: "TINK-HER-HACK 3.0",
       organization: "TinkerHub",
       grade: "Participation Certificate",
       description: "Participated in TINK-HER-HACK 3.0, a hackathon organized by TinkerHub.",
-      verificationUrl: null
+      verificationUrl: "https://drive.google.com/file/d/1CTEiI4BiqveC26mJ9jdmvVuAZ8gmW4W9/view?usp=sharing"
     },
     {
       name: "IEEEXtreme 18.0",
       organization: "IEEE",
       grade: "Participation Certificate",
       description: "Participated in IEEEXtreme 18.0, an international 24-hour programming competition.",
-      verificationUrl: null
+      verificationUrl:"https://drive.google.com/file/d/1a1mXGxGFa-DkuEByJ8129TZAXbqXKWZw/view?usp=sharing"
     }
   ]
 };
