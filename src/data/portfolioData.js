@@ -429,6 +429,13 @@ export const achievementsData = {
       verificationUrl: null
     },
     {
+      name: "Machine Learning and Deep Learning - Fundamentals and Applications",
+      organization: "NPTEL / IIT Guwahati",
+      grade: "Elite – 72%",
+      description: "Successfully completed the 12-week NPTEL course covering the fundamentals and applications of machine learning and deep learning, with a consolidated score of 72%.",
+      verificationUrl: null
+    },
+    {
       name: "TINK-HER-HACK 3.0",
       organization: "TinkerHub",
       grade: "Participation Certificate",
